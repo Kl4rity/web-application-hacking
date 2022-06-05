@@ -53,8 +53,3 @@ to use a combination of tools to do so automatically.
       - NODE_ENV=ctf
       - CTF_KEY=squercon
    ```
-
-## Participant Tooling Setup
-To build the container necessary for the Workshop you need to have Docker installed and to run the build.sh script. 
-Additionally, you will have to download the [BurpSuite](https://portswigger.net/burp/releases/professional-community-2022-3-9).
-
