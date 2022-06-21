@@ -13,7 +13,7 @@ In order to participate in this Workshop you will need the following installed o
    Use `docker compose up -d` to start the target application (the juice shop) and your hacking environment
    
 2. Download hacking tools in Kali container
-   Exec into the Kali Linux container by fetching the container id with `docker ps` and then `docker exec -it <container-id>`.
+   Exec into the Kali Linux container by fetching the container id with `docker ps` and then `docker exec -it <container-id> bash`.
    Once you're in, you run `apt update && apt -y install kali-linux-large` -> this will take about 20-30 minutes!
    
 3. (Optional) Create and join your team

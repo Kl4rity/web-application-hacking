@@ -9,6 +9,7 @@ services:
       - 3000:3000
   hacker-tooling:
     image: kalilinux/kali-rolling
+    command: sleep infinity
 
 #  To run the CTF server locally you can use the below configuration
 #  ctf-server:
